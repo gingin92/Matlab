@@ -10,15 +10,15 @@
 |:----:|:----:|:----:|:----:|
 | Analisis Voz Espetral FFT | ![Dificultad][d1] | ![BarraProgreso][b10] | ------ |
 | CalculadoraVoz | ![Dificultad][d2] | ![BarraProgreso][b10] | Se puede mejorar. |
-| Conexion Arduino | **EN REVISIÓN** | **EN REVISIÓN** | ------ |
+| Conexion Arduino | ------ | ------ | Libreria desarrollada por STAFF de Mathworks |
 | Ejercicios | **EN REVISIÓN** | **EN REVISIÓN** | ------ |
-| LempelZiv | **EN REVISIÓN** | **EN REVISIÓN** | ------ |
-| Metodos Numericos | **EN REVISIÓN** | **EN REVISIÓN** | ------ |
-| Modulacion AM | **EN REVISIÓN** | **EN REVISIÓN** | ------ |
-| Nodo Erlang | **EN REVISIÓN** | **EN REVISIÓN** | ------ |
-| Movimiento Brazo | **EN REVISIÓN** | **EN REVISIÓN** | ------ |
-| Sistema Inventario.Facturacion | **EN REVISIÓN** | **EN REVISIÓN** | ------ |
-| Otros | **EN REVISIÓN** | **EN REVISIÓN** | ------ |
+| LempelZiv | **EN REVISIÓN** | ![BarraProgreso][b10] | ------ |
+| Metodos Numericos | **EN REVISIÓN** | ![BarraProgreso][b50] | ------ |
+| Modulacion AM | **EN REVISIÓN** | ![BarraProgreso][b70] | ------ |
+| Nodo Erlang | **EN REVISIÓN** | ![BarraProgreso][b20] | ------ |
+| Movimiento Brazo Mecanico | **EN REVISIÓN** | ![BarraProgreso][b20] | ------ |
+| Sistema Inventario.Facturacion | **EN REVISIÓN** | ![BarraProgreso][b10] | ------ |
+| Otros | **EN REVISIÓN** | ------ | Programas varios |
 
 ## Contacto
 
