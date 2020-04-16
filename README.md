@@ -8,10 +8,9 @@
 
 |Programa| Dificultad | Fase Desarrollo | Observaciones |
 |:----:|:----:|:----:|:----:|
-| Analisis Voz Espetral FFT | ![Dificultad][d1] | ![BarraProgreso][b10] | ------ |
-| CalculadoraVoz | ![Dificultad][d2] | ![BarraProgreso][b10] | Se puede mejorar. |
+| Analisis Voz Espetral FFT | ![Dificultad][d1] | ![BarraProgreso][b100] | ------ |
+| CalculadoraVoz | ![Dificultad][d2] | ![BarraProgreso][b100] | Se puede mejorar. |
 | Conexion Arduino | ------ | ------ | Libreria desarrollada por STAFF de Mathworks |
-| Ejercicios | **EN REVISIÓN** | **EN REVISIÓN** | ------ |
 | LempelZiv | **EN REVISIÓN** | ![BarraProgreso][b10] | ------ |
 | Metodos Numericos | **EN REVISIÓN** | ![BarraProgreso][b50] | ------ |
 | Modulacion AM | **EN REVISIÓN** | ![BarraProgreso][b70] | ------ |
@@ -27,16 +26,16 @@ Ing. Guillermo Andrade
 Correo: guilloan92@gmail.com
 
 
-[b1]: https://github.com/gingin92/Matlab/blob/master/config/images/10.png "Barra 10%"
-[b2]: https://github.com/gingin92/Matlab/blob/master/config/images/20.png "Barra 20%"
-[b3]: https://github.com/gingin92/Matlab/blob/master/config/images/30.png "Barra 30%"
-[b4]: https://github.com/gingin92/Matlab/blob/master/config/images/40.png "Barra 40%"
-[b5]: https://github.com/gingin92/Matlab/blob/master/config/images/50.png "Barra 50%"
-[b1]: https://github.com/gingin92/Matlab/blob/master/config/images/60.png "Barra 60%"
-[b7]: https://github.com/gingin92/Matlab/blob/master/config/images/70.png "Barra 70%"
-[b8]: https://github.com/gingin92/Matlab/blob/master/config/images/80.png "Barra 80%"
-[b9]: https://github.com/gingin92/Matlab/blob/master/config/images/90.png "Barra 90%"
-[b10]: https://github.com/gingin92/Matlab/blob/master/config/images/100.png "Barra 100%"
+[b10]: https://github.com/gingin92/Matlab/blob/master/config/images/10.png "Barra 10%"
+[b20]: https://github.com/gingin92/Matlab/blob/master/config/images/20.png "Barra 20%"
+[b30]: https://github.com/gingin92/Matlab/blob/master/config/images/30.png "Barra 30%"
+[b40]: https://github.com/gingin92/Matlab/blob/master/config/images/40.png "Barra 40%"
+[b50]: https://github.com/gingin92/Matlab/blob/master/config/images/50.png "Barra 50%"
+[b60]: https://github.com/gingin92/Matlab/blob/master/config/images/60.png "Barra 60%"
+[b70]: https://github.com/gingin92/Matlab/blob/master/config/images/70.png "Barra 70%"
+[b80]: https://github.com/gingin92/Matlab/blob/master/config/images/80.png "Barra 80%"
+[b90]: https://github.com/gingin92/Matlab/blob/master/config/images/90.png "Barra 90%"
+[b100]: https://github.com/gingin92/Matlab/blob/master/config/images/100.png "Barra 100%"
 
 [d1]: https://github.com/gingin92/Matlab/blob/master/config/images/dif1.png "Dificiltad 1"
 [d2]: https://github.com/gingin92/Matlab/blob/master/config/images/dif2.png "Dificiltad 2"
