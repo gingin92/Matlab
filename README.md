@@ -11,7 +11,7 @@
 | Analisis Voz Espetral FFT | ![Dificultad][d1] | ![BarraProgreso][b100] | ------ |
 | CalculadoraVoz | ![Dificultad][d2] | ![BarraProgreso][b100] | Se puede mejorar. |
 | Conexion Arduino | ------ | ------ | Libreria desarrollada por STAFF de Mathworks |
-| LempelZiv | **EN REVISIÓN** | ![BarraProgreso][b10] | ------ |
+| LempelZiv | ![Dificultad][d3] | ![BarraProgreso][b90] | Bug al descomprimir |
 | Metodos Numericos | **EN REVISIÓN** | ![BarraProgreso][b50] | ------ |
 | Modulacion AM | **EN REVISIÓN** | ![BarraProgreso][b70] | ------ |
 | Nodo Erlang | **EN REVISIÓN** | ![BarraProgreso][b20] | ------ |
