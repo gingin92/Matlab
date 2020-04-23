@@ -5,5 +5,7 @@
 * Algoritmo funciona unicamente con texto en este desarrollo. Se puede realizar para cualquier dato formateado en uint8/uint16 para comprimir/descomprimir respectivamente.
 * El programa dispone de una interfaz grafica que permite leer el texto de documentos DOC, DOCX y TXT.
 
-** Actualizacion:
-	* Agregado el soporte para comprimir/descomprimir imagenes. Es necesario disponer de la libreria "Image Processing Toolbox"
+# Actualizacion
+
+* Agregado algoritmo para comprimir/descomprimir imagenes. Es necesario disponer de la libreria "Image Processing Toolbox".
+* Se puede utilizar con imagenes de tamaño pequeño sino puede causar error o demorar mas de 2h de proceso.
