@@ -1,4 +1,4 @@
-function [salida,tabla] = text2lzw(vector)
+function [salida,tabla] = lzw_cod(vector)
 if ~isa(vector,'uint8')
     error('Se debe ingresar un vector en formato uint8');
 end

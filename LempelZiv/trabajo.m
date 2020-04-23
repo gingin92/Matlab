@@ -22,7 +22,7 @@ function varargout = trabajo(varargin)
 
 % Edit the above text to modify the response to help trabajo
 
-% Last Modified by GUIDE v2.5 30-Jan-2016 00:15:50
+% Last Modified by GUIDE v2.5 22-Apr-2020 16:21:18
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -151,14 +151,12 @@ switch com_decom
         bitsc=length(datc)*16;
     case 'Descom'
         sometext=uint16(sometext);
-        datc=lzw2norm(sometext);
+        datc=lzw2text(sometext);
         bitsn=length(sometext)*16;
         bitsc=length(datc)*8;
 end
 datc=char(datc);
 set(handles.cod,'String',datc);
-bitst=((bitsn-bitsc)/bitsn)*100;
-set(handles.text14,'String',{cat(2,'Bits Original:',num2str(bitsn));cat(2,'Bits Complimido:',num2str(bitsc));cat(2,'Tasa Compresion:',num2str(bitst),'%')});
 docFile=cat(2,pwd,'\',answer{1});
 
 switch ext{end}
@@ -186,10 +184,15 @@ end
 
 % --- Executes on button press in pushbutton7.
 function pushbutton7_Callback(hObject, eventdata, handles)
-[a,b]=uigetfile({'*.doc;*.docx;*.txt', 'Archivos de Word(*.doc, *.docx)'},'Seleccione un archivo');
+[a,b]=uigetfile({'*.doc;*.docx', 'Archivos de Word (*.doc, *.docx)'; ...
+    '*.txt', 'Archivos de Texto (*.txt)'}, ...
+    'Seleccione un archivo');
 c=cat(2,b,a);
-copyfile(c,cat(2,pwd,'\',a));
-update_files(handles);
+d=cat(2,pwd,'\',a);
+if ischar(c) && ~isequal(c,d)
+    copyfile(c,d);
+    update_files(handles);
+end
 % hObject    handle to pushbutton7 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
@@ -251,34 +254,34 @@ else
     end
 end
 
-function [salida,tabla] = lzw2norm(vector)
+function [salida,tabla] = lzw2text(vector)
 if ~isa(vector,'uint16')
-    error('Se debe ingresar un vector en formato uint16')
+	error('Se debe ingresar un vector en formato uint16')
 end
 
 vector = vector(:)';
 
-tabla = num2cell(0:1:255);
+tabla = num2cell(uint16(0:1:255));
 salida = uint8([]);
 
 code = vector(1);
 salida(end+1) = code;
-elemn = code;
+text_aux = code;
 for index=2:length(vector)
-    elemn = vector(index);
-    if (double(elemn)+1)>length(tabla)
-        text = tabla{double(code)+1};
-        text = [text elemn];
+	element = vector(index);
+	if (double(element)+1)>length(tabla)
+		string = tabla{double(code)+1};
+		string = [string text_aux];
     else
-        text = tabla{double(elemn)+1};
-    end
-    salida = [salida text];
-    elemn = text(1);
-    [tabla,code] = addcode(tabla,[tabla{double(code)+1} elemn]);
-    code = elemn;
+		string = tabla{double(element)+1};
+	end
+	salida = [salida string];
+	text_aux = string(1);
+	[tabla,code] = addcode(tabla,[tabla{double(code)+1} text_aux]);
+	code = element;
 end
 
-function [table,code] = addcode(table,substr)
-code = length(table)+1;   % start from 1
-table{code} = substr;
-code = uint16(code-1);    % start from 0
+function [tabla,code] = addcode(tabla,substr)
+code = length(tabla)+1;
+tabla{code} = substr;
+code = uint16(code-1);
