@@ -16,7 +16,7 @@
 | Modulacion AM | **EN REVISIÓN** | ![BarraProgreso][b70] | ------ |
 | Nodo Erlang | **EN REVISIÓN** | ![BarraProgreso][b20] | ------ |
 | Movimiento Brazo Mecanico | **EN REVISIÓN** | ![BarraProgreso][b20] | ------ |
-| Sistema Inventario.Facturacion | **EN REVISIÓN** | ![BarraProgreso][b10] | ------ |
+| Sistema Inventario/Facturacion | **EN REVISIÓN** | ![BarraProgreso][b10] | ------ |
 | Otros | **EN REVISIÓN** | ------ | Programas varios |
 
 ## Contacto
@@ -25,6 +25,20 @@ Ing. Guillermo Andrade
 
 Correo: guilloan92@gmail.com
 
+`
+"######################################################################"
+"######################################################################"
+"##    _______  _______  ___      _    _______  _______  ___      _  ##"
+"##   / ____  ||__   __||   \    | |  / ____  ||__   __||   \    | | ##"
+"##  / /    |_|   | |   | |\ \   | | / /    |_|   | |   | |\ \   | | ##"
+"## | |   ____    | |   | | \ \  | || |   ____    | |   | | \ \  | | ##"
+"## | |  /__  |   | |   | |  \ \ | || |  /__  |   | |   | |  \ \ | | ##"
+"## | |_____| | __| |__ | |   \ \| || |_____| | __| |__ | |   \ \| | ##"
+"## |_________||_______||_|    \___||_________||_______||_|    \___| ##"
+"##                                                                  ##"
+"######################################################################"
+"######################################################################"
+`
 
 [b10]: https://github.com/gingin92/Matlab/blob/master/config/images/10.png "Barra 10%"
 [b20]: https://github.com/gingin92/Matlab/blob/master/config/images/20.png "Barra 20%"
