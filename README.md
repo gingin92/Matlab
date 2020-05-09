@@ -12,7 +12,7 @@
 | CalculadoraVoz | ![Dificultad][d2] | ![BarraProgreso][b100] | Se puede mejorar. |
 | Conexion Arduino | ------ | ------ | Libreria desarrollada por STAFF de Mathworks |
 | LempelZiv | ![Dificultad][d3] | ![BarraProgreso][b90] | Integrando funciones para imagenes |
-| Metodos Numericos | **EN REVISIÓN** | ![BarraProgreso][b50] | ------ |
+| Metodos Numericos | ![Dificultad][d1] | ![BarraProgreso][b100] | ------ |
 | Modulacion AM | **EN REVISIÓN** | ![BarraProgreso][b70] | ------ |
 | Nodo Erlang | **EN REVISIÓN** | ![BarraProgreso][b20] | ------ |
 | Movimiento Brazo Mecanico | **EN REVISIÓN** | ![BarraProgreso][b20] | ------ |
@@ -24,21 +24,6 @@
 Ing. Guillermo Andrade
 
 Correo: guilloan92@gmail.com
-
-`
-"######################################################################"
-"######################################################################"
-"##    _______  _______  ___      _    _______  _______  ___      _  ##"
-"##   / ____  ||__   __||   \    | |  / ____  ||__   __||   \    | | ##"
-"##  / /    |_|   | |   | |\ \   | | / /    |_|   | |   | |\ \   | | ##"
-"## | |   ____    | |   | | \ \  | || |   ____    | |   | | \ \  | | ##"
-"## | |  /__  |   | |   | |  \ \ | || |  /__  |   | |   | |  \ \ | | ##"
-"## | |_____| | __| |__ | |   \ \| || |_____| | __| |__ | |   \ \| | ##"
-"## |_________||_______||_|    \___||_________||_______||_|    \___| ##"
-"##                                                                  ##"
-"######################################################################"
-"######################################################################"
-`
 
 [b10]: https://github.com/gingin92/Matlab/blob/master/config/images/10.png "Barra 10%"
 [b20]: https://github.com/gingin92/Matlab/blob/master/config/images/20.png "Barra 20%"
